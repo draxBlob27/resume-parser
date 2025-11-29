@@ -81,7 +81,7 @@ export default function Home() {
         <textarea
           value={resume}
           onChange={(e) => setResume(e.target.value)}
-          placeholder="Paste resume text here or click 'Generate'..."
+          placeholder="Paste resume text here"
           className="w-full h-64 p-4 bg-gray-950 rounded-lg border border-gray-600 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none text-sm font-mono resize-none text-gray-200"
         />
 
